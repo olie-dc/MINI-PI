@@ -300,6 +300,9 @@ section {
     color: #3c3c3c;
     text-decoration: none;
 }
+.livro a:hover {
+    color:white;
+}
 .stars {
     font-size: 24px;
     color: #ccc;

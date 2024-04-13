@@ -2,6 +2,8 @@
 
 Bem-vindo ao Clube Literário! Este é um projeto para criar uma plataforma online onde os entusiastas da leitura podem se conectar, participar de eventos literários e discutir livros.
 
+- Link para acessar o site: https://mini-pi-amber.vercel.app/index.html
+
 ## Visão Geral
 
 O Clube Literário é uma comunidade online dedicada a compartilhar o amor pela leitura. Nossa plataforma oferece uma variedade de recursos, incluindo:

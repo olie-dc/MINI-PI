@@ -4,40 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookworms - O Mundo Dos Livros Ao Seu Alcance</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--Nome, logo e Redes Sociais-->
     <header>
-        <div>
-            <img src="Logo" alt="">
+        <div class="logo">
+            <img src="img-mini-pi/413-4139246_free-png-this-free-icons-design-of-books-483614506.png" alt="logo" height="42" width="42">
         </div>
-        <div>
-            <h1>Bookworms <sub>O Mundo Dos Livros Ao Seu Alcance</sub></h1>
-        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">Notícias</a></li>
+                <li><a href="clubs.html">Clubs</a></li>
+            </ul>        
+        </nav>
     </header>
-
-    <!--Deve conter o menu inicial do site-->
-    <nav>
-        
-    </nav>
 
     <!--Corpo do Site-->
     <main>
         <!-- Informações e historias por tras do site-->
         <article>
-            <div>
-                
+            <div class="corpo" id="#home" >
+                <div class="main-corpo">
+                    <h1>Bem-vindo ao Clube Literário Bookworms</h1>
+                    <p>O Mundo dos Livros ao Seu Alcance</p>
+                    <p>Um lugar onde as palavras ganham vida, e os livros nos transportam para mundos desconhecidos. No nosso clube, celebramos a magia da literatura através de discussões, recomendações e muito mais. Junte-se a nós e deixe sua imaginação voar!</p>
+                    <p class="frase">"Não há nada como a comunhão de mentes criativas." - Virginia Woolf</p>
+                </div>
             </div>
-             <!--Informações complementares / talvez não tenha essa parte-->
-            <aside>
-                
-            </aside>
         </article>
     </main>
+    <section id="featured">
+        <h2>Destaques</h2>
+        <p>Confira os livros e autores em destaque no momento:</p>
+        <ul>
+            <li>Resenha do livro "Nome do Livro"</li>
+            <li>Entrevista com o autor "Nome do Autor"</li>
+        </ul>
+    </section>
+    
+    <section id="testimonials">
+        <h2>Depoimentos</h2>
+        <p>Veja o que nossos membros estão dizendo:</p>
+        <div class="user-feedback">     
+            <div class="feedback">
+                <div class="info">
+                    <div class="user">João</div>
+                    <div class="avaliacao">★★★★</div> 
+                    <div class="comentario">Excelente seleção de livros! Recomendo a todos.</div>
+                </div>
+            </div>
+            <div class="feedback">
+                <div class="info">
+                    <div class="user">Maria</div>
+                    <div class="avaliacao">★★★</div> 
+                    <div class="comentario">Boa variedade, mas poderia ter mais clássicos.</div>
+                </div>
+            </div>
+            <div class="feedback">
+                <div class="info">
+                    <div class="user">Pedro</div>
+                    <div class="avaliacao">★★★★★</div> 
+                    <div class="comentario">Ótimo clube, estou adorando participar!</div>
+                </div>
+            </div>
+    </section>
+
 
     <!--Roda pé/  contatos e informações pessoais-->
     <footer>
-        
+        &copy; 2024 Bookworms. Todos os direitos reservados. | 
+        <a href="https://chat.whatsapp.com/Ccvd0JuqsVc77vJ0ZRicLP">Ajuda</a> | 
+        <a href="mailto:seu@email.com">Email: ouvidoria@bookworms.com</a>
     </footer>
 </body>
 </html>
